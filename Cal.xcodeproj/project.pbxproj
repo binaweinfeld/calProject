@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		DC87C15F2CB4FFEA003D8F71 /* CalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87C15E2CB4FFEA003D8F71 /* CalApp.swift */; };
-		DC87C1612CB4FFEA003D8F71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87C1602CB4FFEA003D8F71 /* ContentView.swift */; };
 		DC87C1632CB4FFEC003D8F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC87C1622CB4FFEC003D8F71 /* Assets.xcassets */; };
 		DC87C1662CB4FFEC003D8F71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC87C1652CB4FFEC003D8F71 /* Preview Assets.xcassets */; };
+		DC87C16D2CB5007E003D8F71 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87C16C2CB5007E003D8F71 /* RecipeView.swift */; };
+		DC87C16F2CB500C7003D8F71 /* RecipesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87C16E2CB500C7003D8F71 /* RecipesListView.swift */; };
+		DC87C1712CB500EE003D8F71 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87C1702CB500EE003D8F71 /* Recipe.swift */; };
+		DC87C1732CB5012B003D8F71 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87C1722CB5012B003D8F71 /* KeychainHelper.swift */; };
+		DC87C1752CB5014D003D8F71 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87C1742CB5014D003D8F71 /* Converter.swift */; };
+		DC87C1772CB5016A003D8F71 /* BiometricAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87C1762CB5016A003D8F71 /* BiometricAuthentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC87C15B2CB4FFEA003D8F71 /* Cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC87C15E2CB4FFEA003D8F71 /* CalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalApp.swift; sourceTree = "<group>"; };
-		DC87C1602CB4FFEA003D8F71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC87C1622CB4FFEC003D8F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC87C1652CB4FFEC003D8F71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC87C16C2CB5007E003D8F71 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		DC87C16E2CB500C7003D8F71 /* RecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListView.swift; sourceTree = "<group>"; };
+		DC87C1702CB500EE003D8F71 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		DC87C1722CB5012B003D8F71 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		DC87C1742CB5014D003D8F71 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		DC87C1762CB5016A003D8F71 /* BiometricAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthentication.swift; sourceTree = "<group>"; };
+		DC87C1782CB50595003D8F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,14 @@
 		DC87C15D2CB4FFEA003D8F71 /* Cal */ = {
 			isa = PBXGroup;
 			children = (
+				DC87C1782CB50595003D8F71 /* Info.plist */,
 				DC87C15E2CB4FFEA003D8F71 /* CalApp.swift */,
-				DC87C1602CB4FFEA003D8F71 /* ContentView.swift */,
+				DC87C1702CB500EE003D8F71 /* Recipe.swift */,
+				DC87C16C2CB5007E003D8F71 /* RecipeView.swift */,
+				DC87C16E2CB500C7003D8F71 /* RecipesListView.swift */,
+				DC87C1722CB5012B003D8F71 /* KeychainHelper.swift */,
+				DC87C1742CB5014D003D8F71 /* Converter.swift */,
+				DC87C1762CB5016A003D8F71 /* BiometricAuthentication.swift */,
 				DC87C1622CB4FFEC003D8F71 /* Assets.xcassets */,
 				DC87C1642CB4FFEC003D8F71 /* Preview Content */,
 			);
@@ -137,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC87C1612CB4FFEA003D8F71 /* ContentView.swift in Sources */,
+				DC87C16D2CB5007E003D8F71 /* RecipeView.swift in Sources */,
+				DC87C16F2CB500C7003D8F71 /* RecipesListView.swift in Sources */,
 				DC87C15F2CB4FFEA003D8F71 /* CalApp.swift in Sources */,
+				DC87C1772CB5016A003D8F71 /* BiometricAuthentication.swift in Sources */,
+				DC87C1732CB5012B003D8F71 /* KeychainHelper.swift in Sources */,
+				DC87C1752CB5014D003D8F71 /* Converter.swift in Sources */,
+				DC87C1712CB500EE003D8F71 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +296,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cal/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +325,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cal/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

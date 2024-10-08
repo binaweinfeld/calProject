@@ -2,7 +2,7 @@
 //  CalApp.swift
 //  Cal
 //
-//  Created by michal zak on 08/10/2024.
+//  Created by Bina Walder on 06/10/2024.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct CalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipesListView()
         }
     }
 }
